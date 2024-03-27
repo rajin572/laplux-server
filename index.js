@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://peace-donation.netlify.app"],
+    origin: ["http://localhost:3000", "https://laplux.vercel.app"],
     credentials: true,
   })
 );
