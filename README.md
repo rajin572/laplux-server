@@ -28,23 +28,6 @@ Server Live Link [Laplux-Server](https://laplux-server.vercel.app/).
 
 - API Endpoints:
 
-  - Description: Registers a new user.
-  - Request:
-    ```json
-    {
-      "name": "John",
-      "email": "example@email.com",
-      "password": "password"
-    }
-    ```
-  - Response:
-    ```json
-    {
-      "success": true,
-      "message": "Login successful",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBoMkBleGFtcGxlLmNvbSIsImlhdCI6MTcwNzg1MDYyMSwiZXhwIjoxNzA3OTM3MDIxfQ.7EahSgmPLPNuZ_T9ok-B6TayWCJVdxPzi_Nx4UfrhvY"
-    }
-    ```
   - POST `/api/v1/laptop`
     - Description: Creating a new laoptop post.
     - Request:
